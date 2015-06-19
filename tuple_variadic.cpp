@@ -41,5 +41,5 @@ int main() {
     auto t1 = std::make_tuple( "this ", "is ", "awesomeness" );
     std::string s = AskForAction(t1);
 
-    std::cout << s << std::endl;
+    std::cout << s << std::endl; // this prints "this is awesomeness"
 }
